@@ -1,0 +1,85 @@
+* {
+  padding: 2px;
+  margin: 2px;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-image: url(bk.jpg);
+}
+.header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+nav img {
+  width: 8%;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.textBox {
+  display: inline-block;
+  margin-top: 80px;
+  width: 50%;
+}
+.textBox h1 {
+  font-size: 45px;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.textBox p {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: white;
+}
+.textBox a {
+  display: block;
+  margin-top: 40px;
+
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  max-width: 30%;
+}
+
+.textBox a:hover {
+  transform: scale(1.1);
+}
+.userBox {
+  float: right;
+  width: 40%;
+  margin-top: 5%;
+}
+
+.userBox img {
+  width: 170%;
+  display: block;
+  margin-left: -360px;
+}
